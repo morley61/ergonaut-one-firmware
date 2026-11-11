@@ -6,7 +6,7 @@ jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
     with:
-      build_matrix: |
+      matrix_board_shield: |
         - board: seeed_xiao_ble
           shield: ergonaut_one_left
         - board: seeed_xiao_ble
